@@ -9,9 +9,10 @@ body {
     padding: 0;
     font-size: 18px;
     font-family: 'Public Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     position: relative;
     width: 100%;
+    line-height: 1.4;
 }
 p {
     color: $grayish;
@@ -24,7 +25,7 @@ p {
 }
 
 .section--introduction {
-    height: 800px;
+    height: 700px;
 }
 
 .img-container {
@@ -45,6 +46,8 @@ p {
 
 .intro--title {
     position: relative;
+    font-weight: 400;
+    font-size: 2em;
     color: $dark-blue;
     top: -160px;
 }
@@ -52,9 +55,11 @@ p {
 .intro--lead {
     position: relative;
     top: -160px;
+    margin: 20px;
 }
 .eb-btn {
     position: relative;
+    font-size: 0.8em;
     top: -160px;
     font-family: 'Public Sans', sans-serif;
     color: white;
@@ -62,10 +67,27 @@ p {
     background-image: linear-gradient(to right, $lime-green, $bright-cyan);
     border: 0;
     border-radius: 30px;
-    padding: 8px 20px;
+    padding: 16px 40px;
     margin: 10px;
 
     &:hover {
         background-image: linear-gradient(to right, lighten($lime-green,20%), lighten($bright-cyan,20%));
     }
   }
+
+
+  //Second section
+.section--title {
+    color: $dark-blue;
+}
+.section--features {
+background: $light-grayish-blue;
+}
+
+.card-featured {
+    margin: 50px;
+}
+
+.card-featured__title {
+    color: $dark-blue;
+}
