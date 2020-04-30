@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;400&display=swap');
+@import 'vars.scss';
+@import 'header.scss';
+
+body {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+    position: relative;
+    width: 100%;
+}
+p {
+    color: $grayish;
+}
+.section {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.section--introduction {
+    height: 800px;
+}
+
+.img-container {
+    position: relative;
+    top: -160px;
+    width: 100%;
+    background-image: url('../images/bg-intro-mob.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 120% 115%;
+    background-position: right top;
+}
+
+.intro--img {
+    width: 100%;
+    height: auto;
+}
+
+.intro--title {
+    position: relative;
+    color: $dark-blue;
+    top: -160px;
+}
+
+.intro--lead {
+    position: relative;
+    top: -160px;
+}
+.eb-btn {
+    position: relative;
+    top: -160px;
+    font-family: 'Public Sans', sans-serif;
+    color: white;
+    cursor: pointer; 
+    background-image: linear-gradient(to right, $lime-green, $bright-cyan);
+    border: 0;
+    border-radius: 30px;
+    padding: 8px 20px;
+    margin: 10px;
+
+    &:hover {
+        background-image: linear-gradient(to right, lighten($lime-green,20%), lighten($bright-cyan,20%));
+    }
+  }

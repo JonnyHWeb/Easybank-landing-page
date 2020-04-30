@@ -1,0 +1,45 @@
+header {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+}
+
+.ib-logo {
+    width: 140px;
+    height: 20px;
+    margin: 5px 0
+}
+
+.main-nav {
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  height: auto;
+  max-height: 0;
+  
+}
+
+.main-nav--expanded {
+  max-height: 600px;
+ 
+}
+
+
+.main-nav--list {
+
+}
+
+.main-nav--list-item {
+
+}
+
+.hamburger-btn {
+    position: absolute;
+    right: 10%;
+    top: 26px;
+    border: 0;
+
+}
+
+.hamburger-state {
+
+}

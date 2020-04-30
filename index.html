@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="stylesheet" href="styles/style.css">
   <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> -->
   
   <title>Frontend Mentor | Easybank landing page</title>
@@ -11,7 +11,10 @@
 </head>
 <body>
   <header>
-    <img class="ib-logo" src="" alt="">
+    <img class="ib-logo" src="images/logo.svg" alt="Easy bank logo">
+    <button class="hamburger-btn" onclick="navStateChange()">
+      <img class="hamburger-state" src="images/icon-hamburger.svg" alt="hambuger menu button">
+    </button>
     <nav class="main-nav">
       <ul class="main-nav--list">
         <li class="main-nav--list-item">Home</li>
@@ -21,15 +24,19 @@
         <li class="main-nav--list-item">Careers</li>
       </ul>
     </nav>
-    <button>Request Invite</button>
+    <!-- <button>Request Invite</button> -->
   </header>
   <main>
-    <section class="section section--introduction">  Next generation digital banking
-
-      Take your financial life online. Your Easybank account will be a one-stop-shop 
+    <section class="section section--introduction">
+      <div class="img-container">
+          <img class="intro--img" src="images/image-mockups.png" alt="Four phones showing the easybank app">
+      </div>
+      <h1 class="intro--title">Next generation digital banking</h1>  
+      <p class="intro--lead">Take your financial life online. Your Easybank account will be a one-stop-shop 
       for spending, saving, budgeting, investing, and much more.
-    
-      Request Invite</section>
+      </p>
+      <button class="eb-btn">Request Invite</button>
+     </section>
     <section class="section section--features">  Why choose Easybank?
 
       We leverage Open Banking to turn your bank account into your financial hub. Control 
@@ -89,5 +96,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.linkedin.com/in/jonathan-hunter-832aa8145/">Jonny Hunter</a>.
   </div>
+  <!-- <script src="js/script.js"></script> -->
 </body>
 </html>
