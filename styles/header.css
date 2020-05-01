@@ -7,7 +7,8 @@ header {
 .ib-logo {
   width: 140px;
   height: 20px;
-  margin: 5px 0;
+  margin: 5px 0 .ib-logo --dark;
+  margin-filter: brightness(0) invert(1);
 }
 
 .hamburger-btn {
