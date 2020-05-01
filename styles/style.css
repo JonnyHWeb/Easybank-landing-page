@@ -13,9 +13,12 @@ header {
 
 .hamburger-btn {
   position: absolute;
-  right: 10%;
+  padding: 0;
+  right: 14%;
   top: 26px;
   border: 0;
+  height: 30px;
+  width: 30px;
 }
 
 body {
