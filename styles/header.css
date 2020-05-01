@@ -10,18 +10,6 @@ header {
   margin: 5px 0;
 }
 
-.main-nav {
-  overflow: hidden;
-  -webkit-transition: max-height 0.3s ease-out;
-  transition: max-height 0.3s ease-out;
-  height: auto;
-  max-height: 0;
-}
-
-.main-nav--expanded {
-  max-height: 600px;
-}
-
 .hamburger-btn {
   position: absolute;
   right: 10%;

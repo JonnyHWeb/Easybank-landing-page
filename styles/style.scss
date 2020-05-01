@@ -91,3 +91,50 @@ background: $light-grayish-blue;
 .card-featured__title {
     color: $dark-blue;
 }
+
+//nav
+
+.main-nav {
+    visibility: hidden;
+    transition: opacity 0.5s ease-in;
+    opacity: 0;
+    height: 0;
+    position: absolute;
+    left: 13px;
+    top: 84px;
+    text-align: center;
+    z-index: 1;
+    background: rgba(1, 1, 1, 0.3);
+    
+  }
+  .main-nav--expanded { 
+    position: absolute;
+    top: 76px;
+    left: 0;
+    transition: opacity 0.2s ease-in;
+    visibility: visible;
+    opacity: 1;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+}
+
+
+  .main-nav--list {
+    background: white;
+    border-radius: 10px;
+    padding: 0;
+  }
+
+  
+  .main-nav--list-item {
+    padding: 10px;
+    list-style: none;
+
+  }
+
+  footer {
+      background: $dark-blue;
+      color: white;
+      text-align: center;
+  }

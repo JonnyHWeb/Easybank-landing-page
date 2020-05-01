@@ -11,18 +11,6 @@ header {
   margin: 5px 0;
 }
 
-.main-nav {
-  overflow: hidden;
-  -webkit-transition: max-height 0.3s ease-out;
-  transition: max-height 0.3s ease-out;
-  height: auto;
-  max-height: 0;
-}
-
-.main-nav--expanded {
-  max-height: 600px;
-}
-
 .hamburger-btn {
   position: absolute;
   right: 10%;
@@ -121,5 +109,49 @@ p {
 
 .card-featured__title {
   color: #2d314d;
+}
+
+.main-nav {
+  visibility: hidden;
+  -webkit-transition: opacity 0.5s ease-in;
+  transition: opacity 0.5s ease-in;
+  opacity: 0;
+  height: 0;
+  position: absolute;
+  left: 13px;
+  top: 84px;
+  text-align: center;
+  z-index: 1;
+  background: rgba(1, 1, 1, 0.3);
+}
+
+.main-nav--expanded {
+  position: absolute;
+  top: 76px;
+  left: 0;
+  -webkit-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+  visibility: visible;
+  opacity: 1;
+  height: 100vh;
+  width: 100vw;
+  display: block;
+}
+
+.main-nav--list {
+  background: white;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.main-nav--list-item {
+  padding: 10px;
+  list-style: none;
+}
+
+footer {
+  background: #2d314d;
+  color: white;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

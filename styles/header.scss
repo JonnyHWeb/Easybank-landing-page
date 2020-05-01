@@ -10,18 +10,18 @@ header {
     margin: 5px 0
 }
 
-.main-nav {
-  overflow: hidden;
-  transition: max-height 0.3s ease-out;
-  height: auto;
-  max-height: 0;
+// .main-nav {
+//   overflow: hidden;
+//   transition: max-height 0.3s ease-out;
+//   height: auto;
+//   max-height: 0;
   
-}
+// }
 
-.main-nav--expanded {
-  max-height: 600px;
+// .main-nav--expanded {
+//   max-height: 600px;
  
-}
+// }
 
 
 .main-nav--list {
